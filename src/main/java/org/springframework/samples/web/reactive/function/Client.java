@@ -30,9 +30,6 @@ import org.springframework.web.reactive.function.client.ClientResponse;
 import org.springframework.web.reactive.function.client.ExchangeFunction;
 import org.springframework.web.reactive.function.client.ExchangeFunctions;
 
-/**
- * @author Arjen Poutsma
- */
 public class Client {
 
 	private ExchangeFunction exchange = ExchangeFunctions.create(new ReactorClientHttpConnector());

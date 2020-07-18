@@ -22,9 +22,6 @@ import org.junit.Test;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
-/**
- * @author Arjen Poutsma
- */
 public class PersonHandlerTests {
 
 	private WebTestClient testClient;

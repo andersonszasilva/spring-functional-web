@@ -22,9 +22,6 @@ import java.util.Map;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-/**
- * @author Arjen Poutsma
- */
 public class DummyPersonRepository implements PersonRepository {
 
 	private final Map<Integer, Person> people = new HashMap<>();
